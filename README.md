@@ -1,10 +1,10 @@
 # Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
-### AIM:
+## AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
-### Equipments Required:
+## Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
 Theory
@@ -29,12 +29,12 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 #### Figure -02 FULL ADDER 
 
-### Procedure
+## Procedure:
 
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### Program:
+## Program:
 ```
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
@@ -65,7 +65,7 @@ endmodule
 Logic symbol & Truthtable
 RTL realization
 
-### Output:
+## Output:
 ### RTL
 ### HALF ADDER
 ![out1](https://user-images.githubusercontent.com/119559976/231803741-ac581b0d-35ca-4ed8-9006-451e363e2e97.png)
@@ -73,17 +73,17 @@ RTL realization
 ### FULL ADDER
 ![out2](https://user-images.githubusercontent.com/119559976/231803790-eb0baa79-f670-46d3-80ad-dbf73d9e4b96.png)
 
-### TIMING DIAGRAM:
+## TIMING DIAGRAM:
 ### HALF ADDER
 ![td1](https://user-images.githubusercontent.com/119559976/231803837-eca7da10-d3ae-4a53-85c4-2828bfcf41c7.png)
 ### FULL ADDER
 ![td2](https://user-images.githubusercontent.com/119559976/231803868-d627aee3-26f8-4e02-b77a-50df242959d5.png)
 
-### TRUTH TABLE:
+## TRUTH TABLE:
 ### HALF ADDER
 ![ttout1](https://user-images.githubusercontent.com/119559976/231803913-d65ddf6f-62aa-4f39-a8b3-065f095a3cf1.png)
 ### FULL ADDER
 ![ttout2](https://user-images.githubusercontent.com/119559976/231803955-54e605de-d790-45ef-8313-474e9e300f03.png)
 
-### Result:
+## Result:
 Thus the half adder and full adder are studied and the truth table for different logic gates are verified.
